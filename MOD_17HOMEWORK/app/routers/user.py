@@ -7,7 +7,6 @@ router = APIRouter(
 
 @router.get("/")
 async def all_users():
-
     pass
 
 @router.get("/user_id")
@@ -25,3 +24,5 @@ async def update_user():
 @router.delete("/delete")
 async def delete_user():
     pass
+
+
